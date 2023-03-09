@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        // Console.WriteLine("Hello Develop03 World!");
         Scripture scripture = new Scripture();
         string userChoice = "";
         Console.Clear();

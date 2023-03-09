@@ -26,8 +26,6 @@ class Scripture
         _reference = new Reference(splitScripture[0], int.Parse(splitScripture[1]), int.Parse(splitScripture[2]));
         // foreach (string word in splitScripture[3].Split(" "))
         // {
-        //     // Your constructor is not set to accept another "Word" object, so it's copying the name of the class, giving you a whole bunch of "WordWordWord"
-        //     // This is unneeded as the reference "word" will just be set to another object during the foreach loop. Simply add word to the list and continue looping
         //     Word newWord = new Word(word); 
         //     _words.Add(newWord);
         // }
